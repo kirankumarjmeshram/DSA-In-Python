@@ -1,3 +1,4 @@
+# O(N*N) time O(N) time
 def minNumberOfJumps(array):
     # Write your code here.
     jumps = [float("inf") for x in array]
