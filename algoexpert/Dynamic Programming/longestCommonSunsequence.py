@@ -1,3 +1,4 @@
+# O(nm*min(m,m)) Time & O(nm*min(m,m))   Space
 def longestCommonSubsequence(str1, str2):
     # Write your code here.
     lcs = [[[]for i in range(len(str1)+1)] for j in range(len(str2)+1)]
